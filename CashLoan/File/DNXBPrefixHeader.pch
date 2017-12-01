@@ -1,0 +1,41 @@
+//
+//  DNXBPrefixHeader.pch
+//  DNXB
+//
+//  Created by apple on 2017/3/10.
+//  Copyright © 2017年 dnxb. All rights reserved.
+//
+
+#ifndef DNXBPrefixHeader_pch
+#define DNXBPrefixHeader_pch
+
+//系统文件
+#import <UIKit/UIKit.h>
+
+
+//第三方文件
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+
+//自定义文件
+#import "ConstOfStatus.h"
+#import "ConstOfColor.h"
+#import "ConstOfENUM.h"
+#import "ConstOfURL.h"
+#import "ConstOfCode.h"
+#import "ConstOfStr.h"
+
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+
+#import "LXBaseController.h"
+#import "LXNavBarController.h"
+#import "LXBaseCollectionCell.h"
+#import "LXBaseTableViewCell.h"
+#import "LXSingleton.h"
+#import "LXHelpClass.h"
+#import "LXDataHelpClass.h"
+#import "LXHttpRequest.h"
+#import "LXWebViewController.h"
+
+#endif 

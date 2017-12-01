@@ -1,0 +1,65 @@
+//
+//  DNXBPrefixHeader.pch
+//  DNXB
+//
+//  Created by apple on 2017/3/10.
+//  Copyright © 2017年 dnxb. All rights reserved.
+//
+
+#ifndef DNXBPrefixHeader_pch
+#define DNXBPrefixHeader_pch
+
+//系统文件
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//第三方文件
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "Masonry.h"
+#import "JPUSHService.h"
+
+//自定义文件
+#import "ConstOfStatus.h"
+#import "ConstOfColor.h"
+#import "ConstOfENUM.h"
+#import "ConstOfURL.h"
+#import "ConstOfCode.h"
+#import "ConstOfStr.h"
+
+#import "UIView+LXExtension.h"
+#import "UIImage+LxExtension.h"
+#import "NSDictionary+LXExtension.h"
+
+#import "LXBaseController.h"
+#import "LXNavBarController.h"
+#import "LXBaseCollectionCell.h"
+#import "LXBaseTableViewCell.h"
+#import "LXBaseTableHeaderFooter.h"
+#import "LXBaseCollectionHeaderFooter.h"
+#import "LXGlobalSingleton.h"
+#import "LXUIHelpClass.h"
+#import "LXDataHelpClass.h"
+#import "LXHttpRequest.h"
+#import "LXWebViewController.h"
+#import "LXNoDataView.h"
+
+#endif 
+
+
+/*
+ #pragma mark - Life cycle
+ #pragma mark - Loading data
+ #pragma mark - Create view
+ #pragma mark - UITableViewDelegate
+ #pragma mark - SystemDelegate
+ #pragma mark - CustomDelegate
+ #pragma mark - Observer
+ #pragma mark - Event response
+ #pragma mark - Private methods
+ #pragma mark - Setter and getter
+ */
